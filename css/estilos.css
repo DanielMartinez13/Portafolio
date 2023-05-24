@@ -165,3 +165,55 @@ main{
     height: 50%;
     top: 15%;
 }
+/*Diseño responsive*/
+@media (max-width: 57.5em) {
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+    .entrada-datos{
+        width: 100%;
+    }
+    .texto{
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+    }
+    .terminos-uso{
+        width: 80%;
+        left: 10%;
+        top: 67%
+    }
+    .terminos-uso p{
+        font-size: 16px;
+    }
+    .botones{
+        width: 80%;
+        left: 10%;
+        top: 70%;
+    }
+    .btn-encriptar, .btn-desencriptar{
+        width: 48%;
+        border-radius: 16px;
+    }
+    .btn-encriptar:hover, .btn-desencriptar:hover{
+        border-color: white;
+    }
+    .salida-datos{
+        width: 80%;
+        height: 15%;
+        left: 15%;
+        top: 80%;
+    }
+    .mensaje{
+        width: 100%;
+        top: 5%;
+
+    }
+    .salida-datos img{
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+}
