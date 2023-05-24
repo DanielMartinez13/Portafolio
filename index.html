@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
-
+    <link rel="shortcut icon" href="imagenes/desktop-solid.svg" type=".png">
     <title>Encriptador de texto</title>
 </head>
 <body>
@@ -22,11 +22,10 @@
             <button class="btn-desencriptar" type="button" onclick="desEncriptar()"">Desencriptar</button>
         </section>
         <section class="salida-datos">
-            <img src="imagenes/searchengin.svg" alt="Buscar" class="buscar">
+            <img src="imagenes/searchengin.svg" alt="Buscar" class="imagen-texto" id="imagen-texto">
             <div class="mensaje" id="mensaje">
                 <h2 id="titulo-mensaje">Ningún mensaje encontrado</h2>
-                <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
-                <!--<textarea name="salida" class="salida" id="salida" cols="30" rows="10"></textarea>-->
+                <p id="parrafo" class="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
             </div>
         </section>
     </main>

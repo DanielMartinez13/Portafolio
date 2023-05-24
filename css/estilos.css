@@ -149,7 +149,10 @@ main{
     text-align: center;
     color: #343a40;
 }
-.mensaje p{
+.mensaje-final{
+    text-align: center;
+}
+.parrafo{
     width: 80%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: normal;
